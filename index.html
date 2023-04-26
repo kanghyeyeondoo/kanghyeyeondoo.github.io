@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang=ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title"              content="전문가가되려면" />
+    <meta property="og:description"        content="1만시간의법칙을아시나요? " />
+    <meta property="og:image"              content="https://cdn.pixabay.com/photo/2017/05/12/03/23/lion-2305938_960_720.jpg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nanum+Pen+Script&family=Noto+Sans+KR&family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>전문가가_되려면</title>
+</head>
+<body>
+    <div class="title01">
+      <img src="clock.png" alt="제목뒤에있는시계이미지입니다">
+    
+    <div class="title">
+    <img src="text.png" alt="제목이미지입니다.">
+    </div>
+    </div>
+    <div class="practice_text">
+    <div class="practice_01">
+        "연습은 어제의 당신보다 당신을 더 낫게 만든다."
+    </div>
+    <div class="practice_02_img">
+    <div class="practice_img"><img src="./quotes.png"></div>
+    <div class="practice_02">
+        <span class="bold">아기사자 여러분</span>은
+        <br>
+        어떤 분야의 전문가가 되기 위해서는
+        <br>
+        최소한 1만 시간의 훈련이 필요합니다. 
+    </div>
+    </div>
+    </div>
+    <div class="form">
+        <div>나는 <input class="form-control d-inline form-control-sm" type="text" placeholder="예)프로그래밍" aria-label=".form-control-sm example">
+        전문가가 될것이다.</div> 
+        <br>
+        <div>그래서 앞으로 매일 하루에 <input id="time" class="form-control d-inline form-control-sm" type="text" placeholder="예)5" aria-label=".form-control-sm example">
+        시간씩 훈련할 것이다.</div>
+    </div>
+    <div class="center">
+        <button type="button" class="btn btn-warning text-primary" id="btn1">나는 몇일동안 훈련해야 전문가가 될까?</button>
+    <div class="click d-inline" >
+        <img src="./click.png" alt="클릭이미지입니다">
+    </div>
+    </div>
+    <!-- 가려졌다가 나와야하는 내용 몇시간인지 ! -->
+<div class="loading_clock" id="hide02-2">
+    <img src="./loading.png" id="reload alt="scroll"">
+</div>
+<div class="hide01" id="hide01-1"> 
+    <div class="pro">
+        당신은  <span class="programing">프로그래밍</span> 전문가가 되기 위해서
+    </div>
+    <div class="pro01">
+        대략  <span class="programing_01" id="practice">1000</span> 일 이상 훈련하셔야 합니다! :)
+    </div>
+    <div class="shar_btn">
+    <div class="gogo d-inline">
+    <button type="button" class="btn btn-warning text-primary" id="btn2">훈련하러 가기 GO! GO!</button>
+    </div>
+    <div class="share d-inline">
+    <button type="button" class="btn btn-light text-primary" onclick="copyUrl()">공유하기</button>
+    </div>
+    </div>
+</div>
+<br>
+<br>
+<!-- 화이팅 당신의 꿈을 응원합니다 hide02-->
+<div class="hide02 fixed box" id="hide02-1">
+     
+    <div class="fixed box">
+        <div class="fight">화이팅!!♥♥
+        </div>
+        <div class="fight02">
+        <br>
+            당신의 꿈을 응원합니다!
+        </div>
+        <div class="mjumark">
+            <img src="./mju_mark.png">
+        </div>
+        <div class="d-grid gap-2 col-6 mx-auto">
+            <button class="btn btn-warning text-primary" type="button" id="btn3"><a href="https://techit.education/" 
+                target="_blank">종료하고 진짜 훈련하러가기 GOGO!</a></button>
+        </div>
+    </div>
+
+</div>
+
+<script src="./js.js">
+</script>
+
+</body>
+</html>

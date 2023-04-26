@@ -1,0 +1,159 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #3A4CA8;
+}
+
+/*제목 스타일*/
+
+.title01{
+    position: relative;
+}
+
+.title > img{
+    position: absolute;
+    display: block; 
+    width: 500px;
+    top: 85px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.title01 > img {
+    display: block; 
+    margin: 0px auto;
+    width: 300px;
+}
+
+
+.practice_text{
+    text-align: center;
+}
+
+.practice_01{
+   font-size: 30px;
+   color: #ffe100;
+   padding: 50px 0px 100px 0px;
+   font-family: 'Nanum Pen Script', cursive;
+}
+
+.bold{
+    font-weight: bold;
+    font-family: 'Do Hyeon', sans-serif;
+}
+
+
+.practice_02_img{
+    position: relative;
+}
+.practice_02{
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+.practice_02{
+    font-family: 'Do Hyeon', sans-serif;
+    color: #fff;
+}
+
+.form{
+    font-family: 'Do Hyeon', sans-serif;
+    text-align: center;
+    color: #fff;
+    padding: 100px 0px 60px 0px;
+}
+.form-control{
+    width: 15%;
+}
+
+.btn-warning{
+    font-family: 'Do Hyeon', sans-serif;
+    background-color: #ffd000;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.pro{
+    font-family: 'Do Hyeon', sans-serif;
+    text-align: center;
+    color: #fff;
+    padding-top: 50px;
+}
+.pro01{
+    font-family: 'Do Hyeon', sans-serif;
+    text-align: center;
+    color: #fff;
+}
+.programing{
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 50px;
+}
+.programing_01{
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 50px;
+}
+
+.shar_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+.share > .btn{
+    font-family:'Do Hyeon', sans-serif;
+}
+
+.share{
+    padding-left: 20px;
+}
+
+.box {
+    width: 500px;
+    height: 500px;
+    margin: 0px auto;
+    border-radius: 10%;
+  }
+  
+  .fixed {
+    position: fixed;
+    top: 15%;
+    left: 15%;
+    right: 15%;
+    background: rgb(255, 255, 255);
+  }
+  .fight{
+    text-align: center;
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 45px;
+    color: #55009b;
+    margin-top: 50px;
+  }
+  .fight02{
+    text-align: center;
+    font-family:'Nanum Pen Script', cursive;
+    font-size: 20px;
+    margin-top: -30px;
+    color: #55009b; 
+  }
+  .mjumark > img{
+    display : block;
+    margin : auto;
+    width: 200px;
+  }
+.d-grid{
+    font-family:'Do Hyeon', sans-serif;
+    margin-top: 20px;
+}
+.loading_clock > img{
+    display: block;
+    margin: auto;
+    width: 100px;
+    margin-top: 10px;
+}
+
+
